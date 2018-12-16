@@ -23,7 +23,7 @@ fi
 read -p 'db_root_password [secretpasswd]: ' db_root_password
 echo
 
-# Update system
+# Update System
 apt-get update
 
 # Install Apache and mod-passenger
@@ -39,7 +39,7 @@ unset DEBIAN_FRONTEND
 # Installing and configuring the Ubuntu Redmine package
 apt-get install redmine redmine-mysql -y
 
-# Installbundler gem
+# Install bundler gem
 gem update
 gem install bundler
 
