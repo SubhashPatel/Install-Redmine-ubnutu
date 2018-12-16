@@ -36,7 +36,7 @@ debconf-set-selections <<< "mysql-server mysql-server/root_password_again passwo
 apt-get install mysql-server mysql-client -y
 unset DEBIAN_FRONTEND
 
-# Installing and configuring the Ubuntu Redmine package
+# Installing and configuring the Ubuntu Redmine packag
 apt-get install redmine redmine-mysql -y
 
 # Install bundler gem
