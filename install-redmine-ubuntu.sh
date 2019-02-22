@@ -69,4 +69,4 @@ service apache2 restart
 # Set auto start tomcat as a system boot
 sudo systemctl enable apache2
 
-echo "Redmine is successfully installed. For Aceess Redmine Go to http://localhost/redmine/
+echo "Redmine is successfully installed. For Aceess Redmine Go to http://localhost/redmine/"
